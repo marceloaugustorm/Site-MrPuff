@@ -1,0 +1,29 @@
+.ead{
+    background-color: rgba(0, 0, 0, 0.897);
+    display: flexbox;
+    width: 1200px;
+    height: 100px;
+    margin-left: 90px;
+    margin-bottom: 600px;
+    border-radius: 30px;
+}
+
+.logo{
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    left: 50px;
+    border-radius: 100px;
+    bottom: 600px;
+
+}
+
+
+.logoInsta{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 200px;
+    top: 65px;
+}
+
