@@ -1,11 +1,17 @@
 .ead{
     background-color: rgba(0, 0, 0, 0.897);
-    display: flexbox;
-    width: 1400px;
+    width: 93vw;
     height: 100px;
-    margin-left: 90px;
+    margin-left: 0px;
     margin-bottom: 570px;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px, solid, white;
+
 }
 
 @font-face {
@@ -15,12 +21,12 @@
 
 .logo{
     position: absolute;
-    height: 160px;
-    width: 160px;
-    left: 50px;
+    height: 130px;
+    width: 130px;
+    left: 30px;
     border-radius: 100px;
-    bottom: 560px;
-    border: 5px, solid, white;
+    bottom: 620px;
+    border: 2px, solid, white;
 
 }
 
@@ -30,7 +36,7 @@
     height: 30px;
     width: 30px;
     right: 200px;
-    top: 55px; 
+    top: 70px; 
 }
 
 .whatsLogo{
@@ -38,20 +44,24 @@
     height: 30px;
     position: absolute;
     right: 145px;
-    top: 55px;
+    top: 70px;
 }
 
 .Hookah {
     
     font-family: "Hookah";
     text-align: center;
-    padding-top: 30px;
+    padding-top: 9px;
     letter-spacing: 2px;
     background: linear-gradient(30deg, #d25a76, #72a6dd); /* Gradiente rosa e azul */
     -webkit-background-clip: text; /* Aplica o gradiente no texto */
     color: transparent; /* Torna o texto transparente para mostrar o gradiente */
     
-    
 }
 
+@media(max-width:768px){
+    .ead{
+        width: 100%;
+    }
+}
 
