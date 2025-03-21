@@ -1,2 +1,11 @@
+body{
+  background: linear-gradient(to right, #e91e63, #3498db, #000);
+  z-index: -1;
 
+}
 
+@media(max-width:768px){
+  .ead{
+      width: 100%;
+  }
+}
