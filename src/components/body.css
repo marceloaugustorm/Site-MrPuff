@@ -146,24 +146,16 @@
 
 @media (max-width: 1200px) {
     .corpo_t{
-        max-width: 100%;
+        max-width: 50%;
         padding: 0 30px 30px;
         display: flex;
         margin-top: 600px;
-        margin-left: 80px;
-        justify-content: center;
+        margin-left: 105px;
+    
 }
 
 }
 
-@media (max-width: 1200px) {
-    .pedido{
-        max-width: 100%;
-        padding: 0 30px 30px;
-        display: flex;
-}
-
-}
 
 
 @media (max-width: 1200px) {
@@ -171,8 +163,8 @@
         max-width: 100%;
         max-height: 100%;
         position: absolute;
-        bottom: 480px;  
-        left: 100px;
+        top: 35vh;
+        left: 130px;
 }
 
 }
@@ -183,8 +175,10 @@
         max-width: 100%;
         max-height: 100%;
         position: absolute;
-        bottom: 530px;  
-        left: 100px;
+        top: 30vh;
+        padding-top: 10vh;
+        margin: auto; 
+        left: 115px;
 }
 
 }
@@ -195,12 +189,46 @@
         max-width: 100%;
         max-height: 100%;
         position: absolute;
-        bottom: 550px;  
-        left: 72px;
+        top: 20vh;  
+        left: 110px;
         text-align: center;
 }
 
 }
+
+
+@media (max-width: 1200px) {
+    h1{
+        max-width: 0%;
+    
+}
+
+}
+
+
+
+@media (max-width: 375px) { /* iPhone SE */
+    .produtos {
+        top: 15vh;
+        
+    }
+}
+
+
+
+@media (max-width: 376px) {
+    .cardapio{
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        top: 34vh;
+        padding-top: 10vh;
+        margin: auto; 
+        left: 115px;
+}
+
+}
+
 
 
 

@@ -61,7 +61,7 @@
 
 @media(max-width:1200px){
     .ead{
-        width: 100%;
+        width: 95%;
         padding: 0 30px 30px;
     }
 }
@@ -69,9 +69,11 @@
 
 @media(max-width: 1200px) {
     .logo{
-        max-width: 0%;
-        padding: 0 30px 30px;
-        display: flex;
+        padding: 0 10px 0px;
+        max-width: 50%;
+        top: 5vh;
+        left: 14vh;
+        border-radius: 70px;
         
 }
 
@@ -84,7 +86,7 @@
         padding: 0 30px 30px;
         display: flex;
         padding-top: 30px;
-        left: 10px;
+        left: 0vh;
 }
 
 }
@@ -96,7 +98,19 @@
         padding: 0 30px 30px;
         display: flex;
         padding-top: 30px;
-        right: 20px;
+        right: 1vh;
+}
+
+}
+
+
+@media (max-width: 376px) { /* iPhone SE */
+    .logo{
+        padding: 0 10px 0px;
+        max-width: 50%;
+        top: 5vh;
+        margin-left: 3vh;
+        border-radius: 100px
 }
 
 }
