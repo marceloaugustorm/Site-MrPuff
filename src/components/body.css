@@ -14,7 +14,7 @@
     margin-top: 60px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
     .corpo {
         width: 150px;
         height: 150px;
@@ -22,7 +22,7 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .corpo {
         width: 150px;
         height: 150px;
@@ -144,11 +144,73 @@
 }
 
 
-@media (max-width: 768px) {
-    body::before {
-        background: linear-gradient(160deg, #e91e63, #3498db, #000);
-        backdrop-filter: blur(20px);
+@media (max-width: 1200px) {
+    .corpo_t{
+        max-width: 100%;
+        padding: 0 30px 30px;
+        display: flex;
+        margin-top: 600px;
+        margin-left: 80px;
+        justify-content: center;
 }
 
 }
+
+@media (max-width: 1200px) {
+    .pedido{
+        max-width: 100%;
+        padding: 0 30px 30px;
+        display: flex;
+}
+
+}
+
+
+@media (max-width: 1200px) {
+    .produtos{
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        bottom: 480px;  
+        left: 100px;
+}
+
+}
+
+
+@media (max-width: 1200px) {
+    .cardapio{
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        bottom: 530px;  
+        left: 100px;
+}
+
+}
+
+
+@media (max-width: 1200px) {
+    .pedido{
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        bottom: 550px;  
+        left: 72px;
+        text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -5,7 +5,7 @@ import Rosa from "../assets/Rosa e Azul.jpeg";
 
 function Body(){
     return(
-        <div>
+        <div className='corpo_t'>
             <a href="https://mrpuff-drinks-o-hookah-o-culture.goomer.app/menu">
             <h2  className='cardapio'>Veja nosso cardápio </h2>
             </a>

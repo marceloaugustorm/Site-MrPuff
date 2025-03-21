@@ -1,11 +1,24 @@
-body{
+body {
   background: linear-gradient(to right, #e91e63, #3498db, #000);
-  z-index: -1;
-
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 100% 100%; /* Garantir que o gradiente cubra toda a tela sem distorcer */
+  background-position: center center; /* Centraliza o gradiente */
+  background-attachment: fixed; /* O fundo não se move durante o scroll */
+  overflow: hidden; 
 }
 
-@media(max-width:768px){
-  .ead{
-      width: 100%;
+
+
+
+
+@media(max-width: 1200px){
+  body{
+      padding: 0 20px 32px;
+      margin-left: -50px;
   }
 }
