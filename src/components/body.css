@@ -216,12 +216,12 @@
 
 
 
-@media (max-width: 376px) {
+@media (max-width: 400px) {
     .cardapio{
         max-width: 100%;
         max-height: 100%;
         position: absolute;
-        top: 34vh;
+        top: 30vh;
         padding-top: 10vh;
         margin: auto; 
         left: 115px;
