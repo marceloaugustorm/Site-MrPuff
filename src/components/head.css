@@ -104,12 +104,12 @@
 }
 
 
-@media (max-width: 391px) { /* iPhone SE */
+@media (max-width: 431px) { /* iPhone SE */
     .logo{
         padding: 0 10px 0px;
         max-width: 50%;
         top: 5vh;
-        margin-left: 0vh;
+        margin-left: 1vh;
         border-radius: 100px    
 }
 

@@ -9,7 +9,6 @@ body {
   background-size: 100% 100%; /* Garantir que o gradiente cubra toda a tela sem distorcer */
   background-position: center center; /* Centraliza o gradiente */
   background-attachment: fixed; /* O fundo não se move durante o scroll */
-  overflow: hidden; 
 }
 
 

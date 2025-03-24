@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px; 
-    margin-top: 60px;
+    
 }
 
 @media (max-width: 1200px) {
@@ -34,7 +34,7 @@
     border-radius: 20px;
     width: 93vw;
     height: 700px;
-    margin-bottom: 700px;
+    margin-top: -2500px;
 }
 
 
@@ -48,6 +48,7 @@
     font-size: 18px;
     letter-spacing: 2px;
     padding-top: 100px;
+    top: 200px;
     padding-bottom: 5px;
 }
 
@@ -84,6 +85,7 @@
     padding-top: 100px;
     padding-bottom: 5px;
     display: inline-block;
+    top: 200px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -118,6 +120,7 @@
     font-size: 18px;
     letter-spacing: 2px;
     padding-top: 100px;
+    top: 200px;
     padding-bottom: 5px;
 }
 
@@ -226,6 +229,9 @@
         
     }
 }
+
+
+
 
 
 

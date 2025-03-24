@@ -1,5 +1,7 @@
 import Body from "./components/body";
 import Head from "./components/head";
+import Informs from "./components/informacoes";
+
  
 
 
@@ -7,8 +9,9 @@ import Head from "./components/head";
 function App(){
   return(
     <div>
-    <Head/>
+    <Head/>  
     <Body/>
+    <Informs/>  
     </div>
   )
 }

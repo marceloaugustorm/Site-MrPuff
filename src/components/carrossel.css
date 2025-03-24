@@ -1,0 +1,56 @@
+.carrossel-container {
+    position: relative;
+    width: 50%; /* Ajuste conforme necessário */
+    border-radius: 50px;
+    margin: auto;
+    overflow: hidden; /* Esconde as imagens fora da área visível */
+    z-index: (12);
+    right: 340px;
+    top: 900px;
+    display: flex;
+    border: solid transparent 15px;
+  }
+  
+  .imagens_carrosel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .imagens_carrosel img {
+    width: 100%;
+    flex-shrink: 0; /* Impede que as imagens encolham */
+  }
+  
+  /* Controle da transição das imagens baseado no índice */
+  .carrossel-container[data-index="0"] .imagens_carrosel {
+    transform: translateX(0px);
+  }
+  
+  .carrossel-container[data-index="1"] .imagens_carrosel {
+    transform: translateX(-100%);
+  }
+  
+  .carrossel-container[data-index="2"] .imagens_carrosel {
+    transform: translateX(-200%);
+  }
+  
+  .btn_prev, .btn_next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-20%);
+    background-color: transparent; /* Torna o fundo transparente */
+    color: white; /* Cor do ícone */
+    border: 2px solid white; /* Adiciona uma borda */
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1;
+  }
+  
+  .btn_prev {
+    left: 10px;
+  }
+  
+  .btn_next {
+    right: 10px;
+  }
+  
