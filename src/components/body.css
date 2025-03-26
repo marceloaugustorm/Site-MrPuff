@@ -14,20 +14,6 @@
     
 }
 
-@media (max-width: 1200px) {
-    .corpo {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-
-@media (max-width: 1200px) {
-    .corpo {
-        width: 150px;
-        height: 150px;
-    }
-}
 
 
 .fundo_body{
@@ -147,25 +133,14 @@
 }
 
 
-@media (max-width: 1200px) {
-    .corpo_t{
-        max-width: 50%;
-        padding: 0 30px 30px;
-        display: flex;
-        margin-top: 600px;
-        margin-left: 100px;
-    
-}
 
-}
 
-@media (max-width: 400px) {
+@media (max-width: 2000px) {
     .corpo_t{
-        max-width: 100%;
-        padding: 0 30px 30px;
-        display: flex;
-        margin-top: 600px;
-        margin-left: 60px;
+        transform: translate(0vh, 2vw);
+
+        
+        
     
 }
 
@@ -173,40 +148,45 @@
 
 
 
-@media (max-width: 1200px) {
+
+
+@media (max-width: 2000px) {
     .produtos{
         max-width: 100%;
         max-height: 100%;
         position: absolute;
-        top: 35vh;
-        left: 130px;
-}
+        top: -4vh;
+        left: 75vw;
 
 }
 
+}
 
-@media (max-width: 1200px) {
+
+
+
+@media (max-width: 2000px) {
     .cardapio{
         max-width: 100%;
         max-height: 100%;
         position: absolute;
-        top: 30vh;
+        top: 0.7vh;
         padding-top: 10vh;
         margin: auto; 
-        left: 115px;
+        left: 42vw;
 }
 
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
     .pedido{
         max-width: 100%;
         max-height: 100%;
         position: absolute;
-        top: 20vh;
+        top: -2vh;
         margin: auto;  
-        left: 110px;
+        left: 12vw;
         text-align: center;
 }
 
@@ -231,22 +211,45 @@
 }
 
 
-
-
-
-
-@media (max-width: 400px) {
-    .cardapio{
-        max-width: 100%;
-        max-height: 100%;
+@media (max-width: 1200px){
+    .fundo_body{
+        transform: translate(3.7vh, 40vw);
+        display: flex;
         position: absolute;
-        top: 30vh;
-        padding-top: 10vh; 
-        left: 115   px;
-        text-align: center;
+        margin: auto;
+        z-index: -2;
+        
+        
+        
+        
+    }
 }
 
+
+
+@media (max-width: 1200px){
+    .pedido{
+        top: -6vh;
+        left: 34vw;
+    }
 }
+
+@media (max-width: 1200px){
+    .cardapio{
+        top: 1vh;
+        left: 36vw;
+    }
+}
+
+@media (max-width: 1200px){
+    .produtos{
+        top: 3vh;
+        left: 40vw;
+    }
+}
+
+
+
 
 
 

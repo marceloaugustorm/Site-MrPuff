@@ -3,7 +3,7 @@
     width: 40%;
     background-color: rgba(0, 0, 0, 0.836);
     display: flex;
-    left: 870px;
+    left: 840px;
     bottom: 1570px;
     position: relative;
     border-radius: 50px;
@@ -18,7 +18,7 @@
     -webkit-background-clip: text; /* Aplica o gradiente no texto */
     -webkit-text-fill-color: transparent;
     font-family: "fonte_nova";
-    left: 120px;
+    left: 100px;
     font-size: 28px;
     letter-spacing: 2px;
     padding-top: 50px;
@@ -68,7 +68,7 @@
     -webkit-background-clip: text; /* Aplica o gradiente no texto */
     -webkit-text-fill-color: transparent;
     font-family: "fonte_nova";
-    left: 120px;
+    left: 110px;
     font-size: 28px;
     letter-spacing: 2px;
     padding-top: 50px;
@@ -83,7 +83,7 @@
     -webkit-background-clip: text; /* Aplica o gradiente no texto */
     -webkit-text-fill-color: transparent;
     font-family: "fonte_nova";
-    left: 165px;
+    left: 145px;
     font-size: 22px;
     letter-spacing: 2px;
     top: 125px;
@@ -101,6 +101,17 @@
 }
 
 
+@media (max-width: 2000px){
+    .Teste{
+        display: flex;
+        transform: translate(-8vh, 13vw)
+    }
+}
 
 
-
+@media (max-width: 2000px){
+    .Logo{
+        display: flex;
+        transform: translate(-3vh, 3vw);
+    }
+}

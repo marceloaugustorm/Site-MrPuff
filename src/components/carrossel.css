@@ -54,3 +54,19 @@
     right: 10px;
   }
   
+
+  @media (max-width: 1200px){
+    .imagens_carrosel img  {
+      position: absolute;
+      margin: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      height: 200px;
+      
+      
+      
+      
+    }
+  }
+  
