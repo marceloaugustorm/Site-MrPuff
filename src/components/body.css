@@ -3,53 +3,53 @@
     src: url("../assets/CreatoDisplay-Light.otf");
 }
 
-.corpo {
-    width: 93vw;
-    height: 100vw; 
-    margin: auto; 
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px; 
-    
-}
 
-@media (max-width: 1200px) {
-    .corpo {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-
-@media (max-width: 1200px) {
-    .corpo {
-        width: 150px;
-        height: 150px;
-    }
-}
 
 
 .fundo_body{
     border-radius: 20px;
     width: 93vw;
     height: 700px;
-    margin-top: -2500px;
+    
+}
+
+.corpo_t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    
 }
 
 
+.textos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('Rosa e Azul.jpeg');
+    background-size: cover; /* Garantindo que a imagem cubra toda a div */  
+    background-position: right;
+    background-repeat: no-repeat;  
+    height: 500px; 
+    width: 93%; 
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+
+
 .cardapio{
-    position: absolute;
     background: linear-gradient(30deg, #d25a76, #72a6dd); /* Gradiente rosa e azul */
     -webkit-background-clip: text; /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent;
     font-family: "fonte_nova";
-    left: 650px;
     font-size: 18px;
-    letter-spacing: 2px;
-    padding-top: 100px;
-    top: 200px;
-    padding-bottom: 5px;
+    letter-spacing: 0px;
+    align-self: center;
+    
 }
 
 .cardapio::after{
@@ -58,9 +58,7 @@
     width: 100%;
     height: 3px;
     background: linear-gradient(30deg, #d25a76, #72a6dd);
-    position: absolute;
     left: 0;
-    bottom: -5px; /* Ajuste a altura da linha */
     transform: scaleX(0); /* Esconde a linha inicialmente */
     transition: transform 0.3s ease-in-out;
 }
@@ -74,18 +72,12 @@
 }
 
 .pedido{
-    position: absolute;
     background: linear-gradient(30deg, #d25a76, #72a6dd); /* Gradiente rosa e azul */
     -webkit-background-clip: text; /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent;
     font-family: "fonte_nova";
-    left: 150px;
     font-size: 18px;
-    letter-spacing: 2px;
-    padding-top: 100px;
-    padding-bottom: 5px;
-    display: inline-block;
-    top: 200px;
+    letter-spacing: 0px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -95,9 +87,7 @@
     width: 100%;
     height: 3px;
     background: linear-gradient(30deg, #d25a76, #72a6dd);
-    position: absolute;
     left: 0;
-    bottom: -5px; /* Ajuste a altura da linha */
     transform: scaleX(0); /* Esconde a linha inicialmente */
     transition: transform 0.3s ease-in-out;
 }
@@ -111,17 +101,13 @@
 }
 
 .produtos{
-    position: absolute;
     background: linear-gradient( #d6fff8, #61adff); 
     -webkit-background-clip: text; /* Aplica o gradiente no texto */
     -webkit-text-fill-color: transparent;
     font-family: "fonte_nova";
-    left: 1100px;
     font-size: 18px;
-    letter-spacing: 2px;
-    padding-top: 100px;
-    top: 200px;
-    padding-bottom: 5px;
+    letter-spacing: 0px;
+    align-self: center;
 }
 
 .produtos::after{
@@ -130,9 +116,7 @@
     width: 100%;
     height: 3px;
     background: linear-gradient(30deg, #d25a76, #72a6dd);
-    position: absolute;
     left: 0;
-    bottom: -5px;
     transform: scaleX(0);
     transition: transform 0.3s ease-in-out;
 }
@@ -146,108 +130,33 @@
 
 }
 
+a{
+    text-decoration: none;
+}
 
-@media (max-width: 1200px) {
-    .corpo_t{
-        max-width: 50%;
-        padding: 0 30px 30px;
-        display: flex;
-        margin-top: 600px;
-        margin-left: 100px;
+
+
+
+.textos a{
+    align-self: start;
+    padding-right: 70px;
+    padding-top: 20px;
     
 }
 
-}
-
-@media (max-width: 400px) {
-    .corpo_t{
-        max-width: 100%;
-        padding: 0 30px 30px;
-        display: flex;
-        margin-top: 600px;
-        margin-left: 60px;
-    
-}
-
-}
-
-
-
-@media (max-width: 1200px) {
-    .produtos{
-        max-width: 100%;
-        max-height: 100%;
-        position: absolute;
-        top: 35vh;
-        left: 130px;
-}
-
-}
-
-
-@media (max-width: 1200px) {
-    .cardapio{
-        max-width: 100%;
-        max-height: 100%;
-        position: absolute;
-        top: 30vh;
-        padding-top: 10vh;
-        margin: auto; 
-        left: 115px;
-}
-
-}
-
-
-@media (max-width: 1200px) {
-    .pedido{
-        max-width: 100%;
-        max-height: 100%;
-        position: absolute;
-        top: 20vh;
-        margin: auto;  
-        left: 110px;
-        text-align: center;
-}
-
-}
-
-
-@media (max-width: 1200px) {
-    h1{
-        max-width: 0%;
-    
-}
-
-}
-
-
-
-@media (max-width: 375px) { /* iPhone SE */
-    .produtos {
-        top: 15vh;
-        
-    }
-}
+.carrossel {
+    width: 100%;
+    max-width: 1200px; /* Limita o tamanho máximo */
+    margin-top: 50px; /* Ajusta o espaço entre os textos e o carrossel */
+    display: flex;
+    align-self: flex-start;
+  }
 
 
 
 
 
-
-@media (max-width: 400px) {
-    .cardapio{
-        max-width: 100%;
-        max-height: 100%;
-        position: absolute;
-        top: 30vh;
-        padding-top: 10vh; 
-        left: 115   px;
-        text-align: center;
-}
-
-}
-
+  
 
 
 
