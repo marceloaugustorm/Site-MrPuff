@@ -1,14 +1,14 @@
 .carrossel-container {
     position: relative;
-    width: 50%; /* Ajuste conforme necessário */
+    width: 93%; /* Ajuste conforme necessário */
+    height: 93%;
     border-radius: 50px;
     margin: auto;
     overflow: hidden; /* Esconde as imagens fora da área visível */
     z-index: (12);
     margin: auto;
-    overflow: hidden;
     display: flex;
-    border: solid transparent 15px;
+    
   }
 
   
@@ -24,6 +24,7 @@
   
   .imagens_carrosel img {
     width: 100%;
+    background-size: contain;
     flex-shrink: 0; /* Impede que as imagens encolham */
     display: flex;
   }
@@ -61,3 +62,12 @@
     right: 10px;
   }
   
+
+  .carrossel{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+
+  }

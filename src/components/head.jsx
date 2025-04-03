@@ -1,17 +1,19 @@
+import {useNavigate} from 'react-router-dom'
 import './head.css';
 import Logo from "../assets/Logo.jpeg";  // Caminho relativo
 import logoInsta from "../assets/logo insta.png";
 import logoWhats from "../assets/Print_Glyph_Green.png";
+import { Navigate } from 'react-router-dom';
 
 
 
 function Head(){
+    const navigate = useNavigate();
     return(
-        <div>
             <div className='ead'>
-                <div className='div_logo'>
+                <div className='div_logo' onClick={() => navigate("/") } >
                  <img className = 'logo' src={Logo} alt="Logo" />
-                 </div>
+                </div>
                 <h1 className='Hookah' >Drinks || Hookah || Culture</h1>
             <div className='Social'>
                 <a href="https://www.instagram.com/mrpuffabc/">
@@ -21,10 +23,8 @@ function Head(){
                     <img className='whatsLogo' src={logoWhats} alt="" />
                 </a>
             </div>
-            </div>
+                </div>
             
-            
-        </div>
     )
 }
 

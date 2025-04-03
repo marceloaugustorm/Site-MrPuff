@@ -1,3 +1,4 @@
+import {useNavigate} from 'react-router-dom';
 import './body.css';
 import Rosa from "../assets/Rosa e Azul.jpeg";
 import Carrossel from "../components/carrossel.jsx"
@@ -5,6 +6,7 @@ import Informs from "../components/informacoes";
 
 
 function Body(){
+    const navigate = useNavigate();
     return(
         <div className='corpo_t'>
             <div className='textos' style={{backgroundImage: `url(${Rosa})`}}>
@@ -16,7 +18,7 @@ function Body(){
                 </a>
 
                 <a>
-                    <h2 className='produtos' >Nossos produtos</h2>
+                    <h2 className='produtos' onClick={() => navigate("/nos-conheca")}>Nos conheça</h2>
                 </a>
             </div>
             <div className='carrossel'>
