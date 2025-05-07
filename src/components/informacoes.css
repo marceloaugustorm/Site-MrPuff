@@ -1,104 +1,38 @@
-.Teste{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.Teste {
+  text-align: center;
+  display: flex;
+  justify-content: space-between; /* Distribui os elementos dentro da div */
+  align-items: center;
+  flex-direction: column;
+  height: 100%; /* Ocupar todo o espaço da coluna */
+  width: 100%;
+  padding: 20px;
 }
 
-
-
-.localizacao{
-    background: linear-gradient( #d6fff8, #61adff); 
-    -webkit-background-clip: text; /* Aplica o gradiente no texto */
-    -webkit-text-fill-color: transparent;
-    font-family: "fonte_nova";
-    font-size: 28px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    padding: 10px;
-    
+.Funcionamento {
+  color: black;
+  font-family: "fonte_nova";
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-bottom: 20px; /* Afastamento do próximo item */
 }
 
-.localizacao::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(30deg, #d25a76, #72a6dd);
-    position: absolute;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
+.Horarios {
+  color: black;
+  font-family: "fonte_nova";
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px; /* Espaço entre horários e logo */
+  width: 100%; /* Garante que o texto ocupe toda a largura */
 }
 
-.localizacao:hover {
-    transform: scale(1.1); /* Aumenta levemente o texto */
+.Logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-self: center;
+  margin-top: auto; /* Empurra a logo para a parte de baixo */
+  border: solid white 1px;
 }
-
-.localizacao:hover::after{
-    background-color: #d25a76;
-
-}
-
-
-.waze{
-    width: 28px;
-    border-radius: 30px;
-    background-color: #61adff;
-   
-
- 
-}
-
-.wazer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-
-
-
-
-.Funcionamento{
-    background: linear-gradient( #d6fff8, #61adff); 
-    -webkit-background-clip: text; /* Aplica o gradiente no texto */
-    -webkit-text-fill-color: transparent;
-    font-family: "fonte_nova";
-    font-size: 28px;
-    flex-direction: column;
-    align-self: center;
-    letter-spacing: 2px;
-    padding-bottom: 5px;
-    margin-top: 5rem;
-}
-
-
-.Horarios{
-    background: linear-gradient(#d25a76, #72a6dd); 
-    -webkit-background-clip: text; /* Aplica o gradiente no texto */
-    -webkit-text-fill-color: transparent;
-    font-family: "fonte_nova";
-    font-size: 18px;
-    letter-spacing: px;
-    text-align: center;
-    padding-left: 20px;
-}
-
-
-.Logo{
-    width: 90px;
-    height: 90px;
-    border-radius: 50px;
-    display: flex;
-    align-self: center;
-    margin-top: 10px;
-    border: solid white 1px;
-}
-
-
-
-
-
-
-

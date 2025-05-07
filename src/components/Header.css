@@ -1,0 +1,4 @@
+.hover-link:hover {
+  color: #ff4da6 !important; /* Rosa, com !important para sobrepor Bootstrap */
+  transition: color 0.3s ease;
+}

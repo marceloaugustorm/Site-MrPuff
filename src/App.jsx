@@ -1,17 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Body from "./components/body";
-import Head from "./components/head.jsx";
-import Conheca from "./components/conheca"; 
+import React from "react";
+import Carrossel from "./components/Carrossel";
+import Header from "./components/Header";
+import Section from "./components/Section";
+
+import "./index.css";
+import Jumb from "./components/Jumb";
 
 function App() {
   return (
-    <Router>
-      <Head/>
-      <Routes>
-        <Route path="/" element={<Body/>} />
-        <Route path="/nos-conheca" element={<Conheca/>} />
-      </Routes>
-    </Router>
+    <div className="site-container">
+      <Header />
+      <Jumb />
+      <Section />
+
+      {/* outros componentes */}
+    </div>
   );
 }
 

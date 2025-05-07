@@ -1,13 +1,41 @@
-body {
-  background-color: #000000;
+* {
   margin: 0;
-  width: 100%;
-  height: 100%;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  background-color: #fff !important; /* Azul escuro */
+}
 
+.site-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
+.carrossel-container {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+}
 
+.carousel-inner img {
+  width: 100%; /* Faz com que todas ocupem a largura do carrossel */
+  height: 650px; /* Defina um tamanho fixo para todas */
+  object-fit: cover; /* Mantém a proporção e preenche o espaço */
+}
 
+/* Media Queries */
 
+@media (max-width: 768px) {
+  .carrossel-container {
+    max-width: 100%; /* Ocupa toda a largura da tela */
+    margin: 0 auto; /* Centraliza no mobile */
+  }
 
+  .carousel-inner img {
+    max-height: 250px; /* Reduz a altura do carrossel no mobile */
+  }
+}
