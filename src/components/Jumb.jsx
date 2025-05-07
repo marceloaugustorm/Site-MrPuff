@@ -9,13 +9,13 @@ const Jumb = () => {
         style={{
           maxWidth: "1200px",
           padding: "3rem",
-          backgroundColor: "#ffffff",
-          color: "#000000",
+          backgroundColor: "#17191A",
+          color: "#65BAE1",
         }}
       >
         <h1
           style={{
-            color: "#000",
+            color: "white",
             fontWeight: "700",
             fontSize: "2.5rem",
           }}
@@ -25,7 +25,7 @@ const Jumb = () => {
         <p
           className="col-lg-8 mx-auto fs-5"
           style={{
-            color: "#333",
+            color: "white",
             fontSize: "1.1rem",
             lineHeight: "1.6",
             marginTop: "1rem",
@@ -44,7 +44,7 @@ const Jumb = () => {
           >
             <FaInstagram
               size={36}
-              color="#000"
+              color="white"
               style={{ cursor: "pointer" }}
               title="Instagram"
             />
@@ -52,7 +52,7 @@ const Jumb = () => {
           <a href="#Whats" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp
               size={36}
-              color="#000"
+              color="white"
               style={{ cursor: "pointer" }}
               title="WhatsApp"
             />

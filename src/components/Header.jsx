@@ -7,7 +7,7 @@ import "./Header.css";
 function Header() {
   return (
     <div className="container">
-      <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
         <div className="col-md-3 mb-2 mb-md-0">
           <a
             href="/"
@@ -25,7 +25,7 @@ function Header() {
           <li>
             <a
               href="#"
-              className="nav-link px-2 text-dark text-decoration-none hover-link"
+              className="nav-link px-2 text-decoration-none hover-link"
             >
               Cardápio
             </a>
@@ -33,7 +33,7 @@ function Header() {
           <li>
             <a
               href="#"
-              className="nav-link px-2 text-dark text-decoration-none hover-link"
+              className="nav-link px-2 text-decoration-none hover-link"
             >
               Pedidos
             </a>
@@ -41,7 +41,7 @@ function Header() {
           <li>
             <a
               href="#"
-              className="nav-link px-2 text-dark text-decoration-none hover-link"
+              className="nav-link px-2 text-decoration-none hover-link"
             >
               Nos Conheça
             </a>

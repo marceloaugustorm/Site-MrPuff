@@ -1,38 +1,49 @@
-.Teste {
+@font-face {
+    font-family: "fonte_nova";
+    src: url("../assets/CreatoDisplay-Light.otf");
+}
+
+
+.Teste1 {
   text-align: center;
   display: flex;
   justify-content: space-between; /* Distribui os elementos dentro da div */
   align-items: center;
   flex-direction: column;
-  height: 100%; /* Ocupar todo o espaço da coluna */
+  height: 650px; /* Ocupar todo o espaço da coluna */
   width: 100%;
   padding: 20px;
+  border-radius: 10px;
+  background-color: #17191A;
 }
 
 .Funcionamento {
-  color: black;
-  font-family: "fonte_nova";
-  font-size: 28px;
-  letter-spacing: 2px;
+  font-family: "Segoe Ui";
+  font-size: 35px;
   margin-bottom: 20px; /* Afastamento do próximo item */
+  color: white;
 }
 
 .Horarios {
-  color: black;
-  font-family: "fonte_nova";
   font-size: 18px;
   text-align: center;
   padding: 10px;
-  margin-bottom: 20px; /* Espaço entre horários e logo */
   width: 100%; /* Garante que o texto ocupe toda a largura */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 
 .Logo {
-  width: 90px;
+  width: 90px; 
   height: 90px;
   border-radius: 50%;
   display: flex;
   align-self: center;
   margin-top: auto; /* Empurra a logo para a parte de baixo */
   border: solid white 1px;
+}
+
+.Local{
+  color: white;
+  font-size: 30px;
 }

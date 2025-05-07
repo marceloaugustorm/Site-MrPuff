@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #fff !important; /* Azul escuro */
+  background-color: #000000 !important; /* Azul escuro */
 }
 
 .site-container {
@@ -36,6 +36,6 @@ body {
   }
 
   .carousel-inner img {
-    max-height: 250px; /* Reduz a altura do carrossel no mobile */
+    max-height: 600px; /* Reduz a altura do carrossel no mobile */
   }
 }
