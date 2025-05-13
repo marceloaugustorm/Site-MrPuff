@@ -13,7 +13,6 @@
     display: block;         /* Faz com que a imagem seja um bloco para que possamos usar margin auto */
     margin-left: auto;      /* Centraliza a imagem horizontalmente */
     margin-right: auto;     /* Centraliza a imagem horizontalmente */
-    padding-left: 2rem;     /* Adiciona o padding à esquerda, se necessário */
   }
 }
 
