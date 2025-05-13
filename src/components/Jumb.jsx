@@ -49,7 +49,7 @@ const Jumb = () => {
               title="Instagram"
             />
           </a>
-          <a href="#Whats" target="_blank" rel="noopener noreferrer">
+          <a href="https://api.whatsapp.com/message/46HCAK57GAZAC1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp
               size={36}
               color="white"

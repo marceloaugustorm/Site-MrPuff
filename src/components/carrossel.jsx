@@ -21,6 +21,8 @@ export default function Div_carrosel() {
         <img src={imagens[2]} alt="Imagem 3" />
       </div>
       <button onClick={nextSlide} className="btn_next">▶</button>
+
+      
     </div>
   );
 }

@@ -7,7 +7,6 @@
 .Teste1 {
   text-align: center;
   display: flex;
-  justify-content: space-between; /* Distribui os elementos dentro da div */
   align-items: center;
   flex-direction: column;
   height: 650px; /* Ocupar todo o espaço da coluna */
@@ -22,16 +21,17 @@
   font-size: 35px;
   margin-bottom: 20px; /* Afastamento do próximo item */
   color: white;
+  font-size: 40px;
 }
 
 .Horarios {
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
-  padding: 10px;
   width: 100%; /* Garante que o texto ocupe toda a largura */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
-}
+  margin-top: auto;
+} 
 
 .Logo {
   width: 90px; 
@@ -40,10 +40,11 @@
   display: flex;
   align-self: center;
   margin-top: auto; /* Empurra a logo para a parte de baixo */
-  border: solid white 1px;
+  border: solid transparent 1px;
 }
 
 .Local{
   color: white;
   font-size: 30px;
+  margin-top: auto;
 }

@@ -43,7 +43,6 @@
 
 .cardapio{
     background: linear-gradient(30deg, #d25a76, #72a6dd); /* Gradiente rosa e azul */
-    -webkit-background-clip: text; /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent;
     font-family: "fonte_nova";
     font-size: 18px;
@@ -73,7 +72,6 @@
 
 .pedido{
     background: linear-gradient(30deg, #d25a76, #72a6dd); /* Gradiente rosa e azul */
-    -webkit-background-clip: text; /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent;
     font-family: "fonte_nova";
     font-size: 18px;
@@ -102,7 +100,6 @@
 
 .produtos{
     background: linear-gradient( #d6fff8, #61adff); 
-    -webkit-background-clip: text; /* Aplica o gradiente no texto */
     -webkit-text-fill-color: transparent;
     font-family: "fonte_nova";
     font-size: 18px;

@@ -7,3 +7,23 @@
   color: #65BAE1 !important;
 }
 
+
+@media (max-width: 768px) {
+  .img-fluid.w-50.rounded-circle {
+    display: block;         /* Faz com que a imagem seja um bloco para que possamos usar margin auto */
+    margin-left: auto;      /* Centraliza a imagem horizontalmente */
+    margin-right: auto;     /* Centraliza a imagem horizontalmente */
+    padding-left: 2rem;     /* Adiciona o padding à esquerda, se necessário */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .nav.col-12.col-md-auto.mb-2.justify-content-center.mb-md-0 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 1.3rem;
+  }
+}
+
