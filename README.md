@@ -1,4 +1,4 @@
-# 🚬 Mr. Puff - Site de Tabacaria
+#  Mr. Puff - Site de Tabacaria
 
 Este é um site moderno e responsivo desenvolvido para a **Mr. Puff**, uma tabacaria especializada em narguilés, essências, vaporizadores e acessórios.  
 O objetivo do projeto é oferecer uma experiência visual marcante e uma navegação fluida, destacando os produtos da loja.
