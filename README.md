@@ -7,7 +7,7 @@ O objetivo do projeto é oferecer uma experiência visual marcante e uma navega�
 
 ## 🌐 Demonstração
 
-🔗 Acesse o site online: [site-mr-puff.vercel.app](https://site-mr-puff-kbdbyb0vm-marceloaugustorms-projects.vercel.app/)
+🔗 Acesse o site online: https://site-mr-puff.vercel.app/
 
 ---
 
