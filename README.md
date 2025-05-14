@@ -1,8 +1,40 @@
-# React + Vite
+# 🚬 Mr. Puff - Site de Tabacaria
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um site moderno e responsivo desenvolvido para a **Mr. Puff**, uma tabacaria especializada em narguilés, essências, vaporizadores e acessórios.  
+O objetivo do projeto é oferecer uma experiência visual marcante e uma navegação fluida, destacando os produtos da loja.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Demonstração
+
+🔗 Acesse o site online: [site-mr-puff.vercel.app](https://site-mr-puff-kbdbyb0vm-marceloaugustorms-projects.vercel.app/)
+
+---
+
+## 🧪 Tecnologias Utilizadas
+
+- **React.js** – Biblioteca para construção da interface
+- **Vite** – Build tool para desenvolvimento rápido com React
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3**
+- **Responsividade Mobile-First**
+
+---
+
+## 📱 Recursos
+
+- Interface desenvolvida com **componentes React**
+- **Design responsivo** (desktop, tablet e mobile)
+- **Navegação fluida** com rolagem suave
+- Estrutura preparada para expansão futura (ex: catálogo dinâmico)
+- SEO e performance básicos otimizados
+
+---
+
+## 🛠️ Como Rodar Localmente
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+npm install
+npm run dev
