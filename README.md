@@ -15,8 +15,7 @@ O objetivo do projeto é oferecer uma experiência visual marcante e uma navega�
 
 - **React.js** – Biblioteca para construção da interface
 - **Vite** – Build tool para desenvolvimento rápido com React
-- **JavaScript (ES6+)**
-- **HTML5 & CSS3**
+- **CSS3**
 - **Responsividade Mobile-First**
 
 ---

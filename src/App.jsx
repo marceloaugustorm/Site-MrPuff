@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Conheca from "./components/conheca"; // Página "Nos Conheça"
 import Jumb from "./components/Jumb";
 import Section from "./components/Section"; // Seção comum a todas as páginas
+import Horario from "./components/informacoes"
 
 import "./index.css";
 
@@ -27,8 +28,13 @@ function App() {
         />
 
         {/* Página "Nos Conheça" */}
+        <Route path="/informacoes" element={<Horario/>} />
         <Route path="/conheca" element={<Conheca />} />
+        
       </Routes>
+
+      
+      
 
       {/* O Footer será renderizado em todas as páginas */}
       <Footer />

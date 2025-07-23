@@ -1,0 +1,68 @@
+.video-wrapper {
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    background-color: #17191A;
+}
+
+.video-title {
+    color: white;
+    font-size: 2rem;
+    
+}
+
+
+
+.video-wrapper {
+    padding: 40px 0;
+    border-radius: 5px;
+    
+}
+
+.video-frame {
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 530px;
+    object-fit: cover;
+}
+
+
+
+
+
+.local{
+  background-color:  #65BAE1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  border: solid transparent;
+  color: black;
+  border-radius: 5px;
+}
+
+.local:hover{
+    background-color: #ff4da6;
+}
+
+
+img{
+    border-radius: 15px;
+}
+
+
+.mapa{
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #65BAE1;
+    color: black;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+

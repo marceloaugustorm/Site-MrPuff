@@ -49,6 +49,12 @@ function Header() {
               Nos Conheça
             </Link>
           </li>
+
+          <li>
+            <Link to="/informacoes" className="nav-link px-2 text-decoration-none hover-link">
+              Horários de funcionamento
+            </Link>
+          </li>
         </ul>
 
         {/* <div className="col-md-3 text-end">
