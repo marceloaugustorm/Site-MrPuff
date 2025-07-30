@@ -1,33 +1,28 @@
 .video-wrapper {
     display: flex;
-    margin: 50px 0;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 50px;
-    background-color: #17191A;
-}
-
-.video-title {
-    color: white;
-    font-size: 2rem;
+    
     
 }
+
 
 
 
 .video-wrapper {
     padding: 40px 0;
     border-radius: 5px;
-    
 }
 
 .video-frame {
-    border: none;
     border-radius: 30px;
-    width: 300px;
-    height: 530px;
     object-fit: cover;
+    height: 700px; /* Mude para 500px, 600px ou mais */
+    max-width: 500px; /* Mude para 600px, 700px ou mais */
+    border-radius: 10px;
+    
 }
 
 
@@ -48,7 +43,7 @@
 }
 
 
-img{
+img{    
     border-radius: 15px;
 }
 
@@ -64,5 +59,43 @@ img{
     text-decoration: none;
     transition: 0.3s;
 }
+
+
+
+.invertido {
+  color: #1e90ff; /* azul vibrante */
+  background: rgba(255, 255, 255, 0.1); /* fundo semitransparente */
+  padding: 8px 46px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(30, 144, 255, 0.4); 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  
+}
+
+.invertido:hover {
+  color: #ff6347; /* tomate */
+  box-shadow: 0 6px 10px rgba(255, 99, 71, 0.6);
+}
+
+
+.hidden-title {
+  overflow: hidden;
+  color: black;
+ 
+}
+
+
+.texto-loja{
+    position: absolute;
+    text-align: center;
+    
+}
+
+
 
 
