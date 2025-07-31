@@ -8,18 +8,17 @@ const Video = () => {
     <div className="video-wrapper">
     
 
-    
+        {/* Trustindex widget no local correto */}
+      <div>
+        <div src="https://cdn.trustindex.io/loader.js?2356b23514d10190a166e5b7646"></div>
 
       {/* Seção do Vídeo */}
 
       <div className="video-title">
         <video src={videomrpuff} autoPlay muted loop className="video-frame" />
-      </div>
+      
     
 
-         {/* Trustindex widget no local correto */}
-      <div>
-        <div src="https://cdn.trustindex.io/loader.js?2356b23514d10190a166e5b7646"></div>
 
 
         <div  className="miniMapa" style={{ textAlign: "center"}}>
@@ -34,6 +33,7 @@ const Video = () => {
         >
           📍 Abrir no Waze
         </a>
+      </div>
       </div>
 
           

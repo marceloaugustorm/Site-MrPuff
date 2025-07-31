@@ -50,6 +50,11 @@ img{
 }
 
 
+.miniMapa{
+  background-color: #17191A;
+}
+
+
 .mapa {
     margin-top: 20px;
     padding: 16px 24px;
@@ -120,6 +125,9 @@ img{
   
 } 
 
+.video-title{
+  display: flex;
+}
 
 
 @media (max-width: 768px) {
