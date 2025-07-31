@@ -19,16 +19,10 @@ const Video = () => {
 
          {/* Trustindex widget no local correto */}
       <div>
-        <h2 className="invertido" >Nosso Espaço</h2>
-        <h2 className="hidden-title">Nosso Espaço</h2>
         <div src="https://cdn.trustindex.io/loader.js?2356b23514d10190a166e5b7646"></div>
-        
-      </div>
-      
 
 
-      {/* Seção do Mapa Waze
-      <div style={{ textAlign: "center", margin: "50px 0" }}>
+        <div  className="miniMapa" style={{ textAlign: "center"}}>
         <h2 style={{ color: "white" }}>Localização no Waze</h2>
         <img src={fotomapa} alt="Mapa estático da localização" />
         <br />
@@ -40,7 +34,15 @@ const Video = () => {
         >
           📍 Abrir no Waze
         </a>
-      </div> */}
+      </div>
+
+          
+        
+      </div>
+
+    
+      
+
     </div>
   );
 };

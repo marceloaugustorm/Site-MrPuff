@@ -90,7 +90,9 @@ p {
   }
 
 
-  
+  .info{
+    font-size: 5px;
+  }
 
   
   .carrossel-container img {
