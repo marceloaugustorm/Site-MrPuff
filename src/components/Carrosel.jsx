@@ -76,7 +76,6 @@ const Carrossel = () => {
         className="carousel-control-next"
         type="button"
         aria-label="Next"
-       
         onClick={proximo}
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>

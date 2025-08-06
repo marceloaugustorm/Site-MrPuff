@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
+import "./Reviews.css"
 
 const Reviews = () => {
-  const [reviews, setReviews] = useState([]);
+
+  const [reviews, setReviews] = useState([]); // Lista de reviews
+  const [indexAtual, setIndexAtual] = useState(0); // Índice do review atual
 
   useEffect(() => {
     const fetchReviews = async () => {
@@ -16,19 +19,52 @@ const Reviews = () => {
     };
 
     fetchReviews();
+    
+  
   }, []);
 
+
+    const proximo = () => 
+      setIndexAtual((prev) => (prev + 1) % reviews.length);
+
+    const anterior = () =>
+      setIndexAtual((prev) => (prev - 1 + reviews.length) % reviews.length)
+
+          if (reviews.length === 0) {
+       return <p>Carregando avaliações...</p>;
+} 
+
+    const review = reviews[indexAtual]
+
   return (
-    <div>
-      <h2>Avaliações</h2>
-      {reviews.map((review, index) => (
-        <div key={index}>
-          <p>{review.author_name}</p>
-          ⭐ {review.rating}
+    <div className="Review-Wrapper">
+
+
+        <div>
+
+          <p className="nome" > {review.author_name}</p>
+          <img className="photo_url" src={review.profile_photo_url} alt="" />
+          <img className="google" src="https://cdn.trustindex.io/assets/platform/Google/logo-dark.svg" alt="" />
           <p>{review.text}</p>
+          
+          {"⭐".repeat(review.rating)}
+          
         </div>
-      ))}
+
+
+        <div>
+        <button className="buttons" onClick={anterior}>Anterior</button>
+        <button className="buttons" onClick={proximo}>Próximo</button>
+      </div>
+     
     </div>
+
+    
+    
+
+   
+
+
   );
 };
 

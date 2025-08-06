@@ -1,0 +1,50 @@
+.photo_url{
+    width: 50px;
+}
+
+.Review-Wrapper{
+    display: flex;
+    flex-direction: column;
+    border: solid white 5px;
+    background-color:#17191A;
+    width: 430px;
+}
+
+.buttons{
+    background: linear-gradient(135deg, #65BAE1 0%, #4A9FD9 100%);
+    color: #1a1a1a;
+    font-size: 1.0rem;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(101, 186, 225, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(101, 186, 225, 0.3);
+    background: linear-gradient(135deg, #4A9FD9 0%, #3B8BC9 100%);
+}
+
+h2{
+    color: white;
+}
+
+
+.google{
+    width: 150px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.219);
+}
+
+
+.nome{
+    font-size: 16px;
+}
