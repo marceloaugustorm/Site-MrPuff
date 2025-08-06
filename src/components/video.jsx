@@ -3,23 +3,18 @@ import videomrpuff from "../assets/video mrpuff.mp4";
 import fotomapa from "../assets/fotomapa.png";
 import "./video.css";
 
+
 const Video = () => {
   return (
     <div className="video-wrapper">
     
 
-        {/* Trustindex widget no local correto */}
-      <div>
-        <div src="https://cdn.trustindex.io/loader.js?2356b23514d10190a166e5b7646"></div>
 
+      <div>
       {/* Seção do Vídeo */}
 
       <div className="video-title">
         <video src={videomrpuff} autoPlay muted loop className="video-frame" />
-      
-    
-
-
 
         <div  className="miniMapa" style={{ textAlign: "center"}}>
         <h2 style={{ color: "white" }}>Localização no Waze</h2>

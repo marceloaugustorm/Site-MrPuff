@@ -1,6 +1,7 @@
 import React from "react";
 import Carrossel from "./Carrosel";
 import Video from "./video"
+import Reviews from "./Reviews"
 
 
 
@@ -10,6 +11,7 @@ const Section = () => {
   return (
     <section >              
           <Carrossel />
+          <Reviews/>
           <Video/>
           
     </section>
