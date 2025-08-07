@@ -39,6 +39,10 @@ const Reviews = () => {
     );
   } 
 
+    if (!reviews[indexAtual] || !reviews[prIndex]) {
+    return null; // Ou <p>Erro ao carregar avaliações</p> se quiser mostrar algo
+  }
+
   const review = reviews[indexAtual]
   const prReviews = reviews[prIndex]
 
