@@ -1,8 +1,10 @@
 // api/reviews.js
-
 import fetch from 'node-fetch';
+import express from 'express';
 
-export default async function handler(req, res) {
+const router = express.Router();
+
+router.get('/', async (req, res) => {
   const apiKey = process.env.API_KEY;
   const placeId = process.env.PLACE_ID;
 
@@ -20,4 +22,6 @@ export default async function handler(req, res) {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
-}
+});
+
+export default router;
