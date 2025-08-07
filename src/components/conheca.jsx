@@ -17,18 +17,16 @@ function Conheca() {
         <section className="conheca-section">
           <h2>Nossa História</h2>
           <p>
-            Fundado em 2018, o Mr. Puff nasceu da paixão por criar um espaço único onde os amantes 
-            de hookah, drinks artesanais e boa gastronomia pudessem se reunir. Localizado no coração de Santo André,
-            nos tornamos rapidamente um ponto de encontro para quem busca uma experiência completa.
+            Desde 2021, a Mr. Puff se destaca por ir além do convencional. Unimos adega, tabacaria e loja de conveniência em um só lugar, oferecendo variedade,
+            praticidade e produtos premium para atender às mais diversas ocasiões.
           </p>
         </section>
 
         <section className="conheca-section">
           <h2>Nossa Missão</h2>
           <p>
-            Proporcionar momentos inesquecíveis através de uma combinação perfeita entre atendimento 
-            personalizado, ambiente acolhedor e produtos de alta qualidade. Acreditamos que cada cliente 
-            merece uma experiência única, onde cada detalhe é cuidadosamente pensado.
+            Proporcionar uma experiência única e eficiente, com atendimento personalizado, ambiente agradável e um mix de produtos que entrega conveniência com qualidade. 
+            Na Mr. Puff, cada visita se transforma em uma nova oportunidade de surpreender o cliente.
           </p>
         </section>
 
@@ -36,16 +34,18 @@ function Conheca() {
           <h2>Diferenciais</h2>
           <div className="diferenciais-grid">
             <div className="diferencial-item">
-              <h3>Drinks Exclusivos</h3>
-              <p>Receitas autorais criadas por nossos mixologistas usando ingredientes frescos e técnicas modernas.</p>
+              <h3>Produtos Selecionados</h3>
+              <p>Trabalhamos exclusivamente com produtos originais e com as marcas mais renomadas do mercado. 
+                Qualidade e confiança estão no centro de tudo o que oferecemos.</p>
             </div>
             <div className="diferencial-item">
-              <h3>Hookah Premium</h3>
-              <p>Utilizamos apenas essências de alta qualidade e equipamentos modernos para uma experiência superior.</p>
+              <h3>Novidades Sempre em Primeira Mão</h3>
+              <p>Na Mr. Puff, você encontra os principais lançamentos
+                 e tendências do mercado, com novidades que chegam antes de todo mundo.</p>
             </div>
             <div className="diferencial-item">
-              <h3>Ambiente</h3>
-              <p>Decoração contemporânea com toques aconchegantes, criando o cenário perfeito para momentos especiais.</p>
+              <h3>Ambiente Impecável</h3>
+              <p>Valorizamos um ambiente limpo, agradável e bem cuidado — pensado para que cada visita seja confortável e prazerosa.</p>
             </div>
             <div className="diferencial-item">
               <h3>Gastronomia</h3>
