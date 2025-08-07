@@ -10,8 +10,7 @@ const Reviews = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const url = "http://localhost:3001/reviews";
-        const response = await fetch(url);
+        const response = await fetch('http://localhost:5000/api/reviews');
         const data = await response.json();
         setReviews(data);
       } catch (error) {
