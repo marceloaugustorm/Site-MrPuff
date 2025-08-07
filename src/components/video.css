@@ -2,11 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
-    gap: 50px;
-    
-
-    
+    gap: 50px;     
 }
 
 
@@ -27,104 +23,6 @@
 }
 
 
-
-
-
-.local{
-  background-color:  #65BAE1;
-  text-decoration: none;
-  transition: color 0.3s ease;
-  border: solid transparent;
-  color: black;
-  border-radius: 5px;
-}
-
-.local:hover{
-    background-color: #ff4da6;
-}
-
-
-img{    
-    border-radius: 15px;
-    width: 500px;
-}
-
-
-.miniMapa{
-  background-color: #17191A;
-}
-
-
-.mapa {
-    margin-top: 20px;
-    padding: 16px 24px;
-    background: linear-gradient(135deg, #65BAE1 0%, #4A9FD9 100%);
-    color: #1a1a1a;
-    font-size: 1.2rem;
-    font-weight: 500;
-    border-radius: 16px;
-    text-decoration: none;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 4px 12px rgba(101, 186, 225, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    display: inline-block;
-    cursor: pointer;
-}
-
-.mapa:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(101, 186, 225, 0.3);
-    background: linear-gradient(135deg, #4A9FD9 0%, #3B8BC9 100%);
-}
-
-.mapa:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 8px rgba(101, 186, 225, 0.2);
-} 
-
-
-
-.invertido {
-  color: #1e90ff; /* azul vibrante */
-  background: rgba(255, 255, 255, 0.1); /* fundo semitransparente */
-  padding: 8px 46px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(30, 144, 255, 0.4); 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  transition: color 0.3s ease, box-shadow 0.3s ease;
-  text-align: center;
-  
-}
-
-.invertido:hover {
-  color: #ff6347; /* tomate */
-  box-shadow: 0 6px 10px rgba(255, 99, 71, 0.6);
-}
-
-
-.hidden-title {
-  overflow: hidden;
-  color: black;
- 
-}
-
-
-/* .texto-loja{
-    position: absolute;
-    text-align: center;
-    
-} */
-
-
-.ti-widget {
-  width: 70rem !important;
-  overflow: hidden;
-  
-} 
-
 .video-title{
   display: flex;
 }
@@ -139,9 +37,11 @@ img{
     justify-content: center;
   }
 
-  .ti-widget{
-    width: 15rem !important ;
+  .video-title{
+    display: flex;
+    flex-direction: column;
   }
+
 
 
    .video-frame {
@@ -149,17 +49,6 @@ img{
     height: auto;
   }
 
-
-  img{
-    width: 250px;
-  }
-
-}
-
-@media (max-width: 480px) {
-  .trustindex-container .ti-widget-container {
-    transform: scale(0.75);
-  }
 }
 
 

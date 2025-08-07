@@ -58,7 +58,6 @@ p {
   font-size: 1.3rem;
   color: #666;
   line-height: 1.6;
-
 }
 
 
@@ -74,16 +73,61 @@ p {
 
 .link:hover{
   background-color: #ff4da6 ;
-  
 
+}
 
+.link {
+    background: linear-gradient(135deg, #65BAE1 0%, #4A9FD9 100%);
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(101, 186, 225, 0.2);
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    text-align: center;
+}
+
+.link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.link:hover::before {
+    left: 85%;
+}
+
+.link:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #4A9FD9 0%, #3B8BC9 100%);
+}
+
+.link:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(101, 186, 225, 0.3);
+}
+
+.link:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
 }
 
 
 /* Responsividade */
 @media (max-width: 768px) {
   .carrossel-wraper {
-    padding: 20px;
     min-height: 60vh;
     flex-direction: column;
     display: flex;
@@ -92,12 +136,14 @@ p {
 
   .info{
     font-size: 5px;
+    width: 200px;
   }
 
   
   .carrossel-container img {
     height: 400px;
-    max-width: 100%;
+    width: 300px;
+
     
   }
   
@@ -113,6 +159,9 @@ p {
 
   .carousel-control-prev {
     left: 10px;
+    border: solid 5px black;
+    color: black;
+    background-color: black;
   }
   
   .carousel-control-next {

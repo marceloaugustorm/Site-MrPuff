@@ -11,9 +11,8 @@ const Section = () => {
   return (
     <section >              
           <Carrossel />
-          <Reviews/>
           <Video/>
-          
+
     </section>
   );
 };
