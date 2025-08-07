@@ -10,7 +10,7 @@ const Reviews = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/reviews');
+        const response = await fetch('https://consumo-api-z8t2.onrender.com/reviews/reviews');
         const data = await response.json();
         setReviews(data);
       } catch (error) {
