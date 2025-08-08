@@ -4,32 +4,48 @@
 }
 
 
-.Teste1 {
-  text-align: center;
+.func-wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 650px; /* Ocupar todo o espaço da coluna */
+  height: 500px; /* Ocupar todo o espaço da coluna */
   width: 100%;
   padding: 20px;
   border-radius: 10px;
-  background-color: #17191A;
+  background-color: #000000;
+}
+
+.func-section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(60, 51, 51, 0.145);
+    text-align: left;
+    width: 700px;
+    justify-content: center;
+    border-radius: 10px;
+    border-top: 10px solid #E33D53;
+ 
 }
 
 .Funcionamento {
-  font-family: "Segoe Ui";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 35px;
   margin-bottom: 20px; /* Afastamento do próximo item */
-  color: white;
+  color: #65BAE1; 
   font-size: 40px;
+  padding: 10px;
 }
 
 .Horarios {
   font-size: 25px;
-  text-align: center;
   width: 100%; /* Garante que o texto ocupe toda a largura */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
+  border: solid 1px rgba(255, 255, 255, 0.179);
+  padding: 10px;
+  background-color: rgba(60, 51, 51, 0.185);
+  border-radius: 5px;
+  
   margin-top: auto;
 } 
 
@@ -47,4 +63,56 @@
   color: white;
   font-size: 30px;
   margin-top: auto;
+}
+
+
+
+.button_link {
+    background: linear-gradient(135deg, #65BAE1 0%, #4A9FD9 100%);
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(101, 186, 225, 0.2);
+    overflow: hidden;
+    width: 180px;
+    text-align: center;
+    
+}
+
+.buttons_link ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.button_link :hover::before {
+    left: 100%;
+}
+
+.button_link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(101, 186, 225, 0.4);
+    background: linear-gradient(135deg, #4A9FD9 0%, #3B8BC9 100%);
+}
+
+.button_link:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(101, 186, 225, 0.3);
+}
+
+.button_link:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
 }

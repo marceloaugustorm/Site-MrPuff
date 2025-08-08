@@ -93,20 +93,6 @@ p {
     text-align: center;
 }
 
-.link::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -10%;
-    width: 20%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    transition: left 0.5s;
-}
-
-.link:hover::before {
-    left: 85%;
-}
 
 .link:hover {
     transform: translateY(-2px);

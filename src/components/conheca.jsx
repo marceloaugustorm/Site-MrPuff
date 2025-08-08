@@ -47,10 +47,7 @@ function Conheca() {
               <h3>Ambiente Impecável</h3>
               <p>Valorizamos um ambiente limpo, agradável e bem cuidado — pensado para que cada visita seja confortável e prazerosa.</p>
             </div>
-            <div className="diferencial-item">
-              <h3>Gastronomia</h3>
-              <p>Cardápio elaborado que une sabores tradicionais e inovadores, perfeito para compartilhar entre amigos.</p>
-            </div>
+            
           </div>
         </section>
 

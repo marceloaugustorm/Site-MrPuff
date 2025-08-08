@@ -9,7 +9,7 @@ const Jumb = () => {
         style={{
           maxWidth: "1200px",
           padding: "3rem",
-          backgroundColor: "#17191A",
+          background: "linear-gradient(to right, #65BAE1, #E33D53)",
           color: "#65BAE1",
         }}
       >
