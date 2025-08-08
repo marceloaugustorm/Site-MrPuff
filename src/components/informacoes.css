@@ -116,3 +116,10 @@
     cursor: not-allowed;
     transform: none;
 }
+
+
+@media (max-width:768px) {
+  .func-section{
+    width: 300px;
+  }
+}
