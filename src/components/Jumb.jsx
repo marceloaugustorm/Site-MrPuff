@@ -1,8 +1,8 @@
 import React from "react";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
-import Fundo1 from "../assets/imagem_fundo1.jpeg";
-import Fundo2 from "../assets/imagem_fundo2.jpeg";
-import Fundo3 from "../assets/imagem_fundo3.jpeg";
+import Fundo1 from "../assets/imagem_fundo1.jpg";
+import Fundo2 from "../assets/imagem_fundo2.jpg";
+import Fundo3 from "../assets/imagem_fundo3.jpg";
 import "./Jumb.css";
 
 const Jumb = () => {
