@@ -22,7 +22,7 @@ function Inform() {
         </h1>
 
       </div>
-            <a 
+            <a className="button_link"
   href="https://waze.com/ul?ll=-23.6736162,-46.5132627&navigate=yes" 
   target="_blank" 
   rel="noopener noreferrer">
