@@ -22,8 +22,13 @@ function Inform() {
         </h1>
 
       </div>
-            <a className="button_link" href="https://ul.waze.com/ul?place=ChIJxcp-xFFpzpQRRdtbr-jwub8&ll=-23.67361620%2C-
-      46.51326270&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="blank" >Nos encontre</a>
+            <a 
+  href="https://waze.com/ul?ll=-23.6736162,-46.5132627&navigate=yes" 
+  target="_blank" 
+  rel="noopener noreferrer">
+  Nos encontre
+</a>
+
     </div>
   );
 }
