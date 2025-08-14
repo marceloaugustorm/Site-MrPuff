@@ -52,7 +52,7 @@ function Header() {
 
           <li>
             <Link to="/informacoes" className="nav-link px-2 text-decoration-none hover-link">
-              Horários de funcionamento
+              Localização
             </Link>
           </li>
         </ul>
