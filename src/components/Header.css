@@ -10,9 +10,9 @@
 
 @media (max-width: 768px) {
   .img-fluid.w-50.rounded-circle {
-    display: block;         /* Faz com que a imagem seja um bloco para que possamos usar margin auto */
-    margin-left: auto;      /* Centraliza a imagem horizontalmente */
-    margin-right: auto;     /* Centraliza a imagem horizontalmente */
+    display: block;         
+    margin-left: auto;      
+    margin-right: auto;   
   }
 }
 
