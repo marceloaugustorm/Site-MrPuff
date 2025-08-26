@@ -7,6 +7,20 @@
   color: #65BAE1 !important;
 }
 
+.nav{
+  font-size: 19px;
+}
+
+.line{
+  border-bottom: solid 2px #65BAE1;
+  display: flex;
+}
+
+.containerh{
+  border-top:none;
+  border-radius: 10px;
+}
+
 
 @media (max-width: 768px) {
   .img-fluid.w-50.rounded-circle {

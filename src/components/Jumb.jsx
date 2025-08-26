@@ -24,20 +24,10 @@ const Jumb = () => {
 
         {/* Texto geral */}
         <p className="jumb-description col-lg-8 mx-auto fs-5">
-          Descubra a experiência única da nossa Adega & Tabacaria! Venha
-          conferir nossos produtos exclusivos e aproveitar momentos especiais
-          com qualidade e variedade. Entre em contato para saber mais!
+          Na Mr Puff você encontra um headshop completo, tudo para narguilé, seleção especial de vinhos, destilados, cervejas, acessórios e muito mais. Há 4 anos oferecemos qualidade, variedade e atendimento personalizado para tornar cada escolha uma experiência única.
         </p>
 
-        {/* Ícones */}
-        <div className="d-flex justify-content-center gap-4 mt-4">
-          <a href="https://www.instagram.com/mrpuffabc/" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={36} color="white" style={{ cursor: "pointer" }} title="Instagram" />
-          </a>
-          <a href="https://api.whatsapp.com/message/46HCAK57GAZAC1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
-            <FaWhatsapp size={36} color="white" style={{ cursor: "pointer" }} title="WhatsApp" />
-          </a>
-        </div>
+       
       </div>
     </div>
   );

@@ -1,16 +1,14 @@
 import { useState, useEffect } from "react";
-import "./Reviews.css"
+import "./Reviews.css";
 
 const Reviews = () => {
-
-  const [reviews, setReviews] = useState([]); // Lista de reviews
-  const [indexAtual, setIndexAtual] = useState(0); // Índice do review atual
-  const [prIndex, setprIndex] = useState(1)
+  const [reviews, setReviews] = useState([]);
+  const [indexAtual, setIndexAtual] = useState(0);
 
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch('https://consumo-api-z8t2.onrender.com/reviews');
+        const response = await fetch("https://consumo-api-z8t2.onrender.com/reviews");
         const data = await response.json();
         setReviews(data);
       } catch (error) {
@@ -23,13 +21,11 @@ const Reviews = () => {
 
   const proximo = () => {
     setIndexAtual((prev) => (prev + 1) % reviews.length);
-    setprIndex((prev) => (prev + 2) % reviews.length);
-  }
+  };
 
   const anterior = () => {
-    setIndexAtual((prev) => (prev - 1 + reviews.length) % reviews.length)
-    setprIndex((prev) => (prev - 2 + reviews.length) % reviews.length)
-  }
+    setIndexAtual((prev) => (prev - 1 + reviews.length) % reviews.length);
+  };
 
   if (reviews.length === 0) {
     return (
@@ -37,63 +33,41 @@ const Reviews = () => {
         <p className="loading">Carregando avaliações...</p>
       </div>
     );
-  } 
-
-    if (!reviews[indexAtual] || !reviews[prIndex]) {
-    return null; // Ou <p>Erro ao carregar avaliações</p> se quiser mostrar algo
   }
 
-  const review = reviews[indexAtual]
-  const prReviews = reviews[prIndex]
+  // Review atual e próximo
+  const review = reviews[indexAtual];
+  const prReview = reviews[(indexAtual + 1) % reviews.length];
 
   return (
     <div className="Review-Wrapper">
-      <div className="review-content">
-        <div className="review-header">
-          <img className="photo_url" src={review.profile_photo_url} alt={`Foto de ${review.author_name}`} />
-          <div className="author-info">
-            <p className="nome">{review.author_name}</p> 
-            <img className="google" src="https://cdn.trustindex.io/assets/platform/Google/logo-dark.svg" alt="Google Reviews" />
-
-      
+      {[review, prReview].map((r, i) => (
+        <div key={i} className="review-content">
+          <div className="review-header">
+            <img className="photo_url" src={r.profile_photo_url} alt={`Foto de ${r.author_name}`} />
+            <div className="author-info">
+              <p className="nome">{r.author_name}</p>
+              <img
+                className="google"
+                src="https://cdn.trustindex.io/assets/platform/Google/logo-dark.svg"
+                alt="Google Reviews"
+              />
+            </div>
           </div>
-        </div>
-      
-        
-        <div className="rating">
-          {"⭐".repeat(review.rating)}
-        </div>
-        
-        <p className="review-text">{review.text} </p>
-      </div>
 
-      <div className="review-content">
-        <div className="review-header">
-          <img className="photo_url" src={prReviews.profile_photo_url} alt={`Foto de ${prReviews.author_name}`} />
-          <div className="author-info">
-            <p className="nome">{prReviews.author_name}</p> 
-            <img className="google" src="https://cdn.trustindex.io/assets/platform/Google/logo-dark.svg" alt="Google Reviews" />
-            
-      
-          </div>
+          <div className="rating">{"⭐".repeat(r.rating)}</div>
+          <p className="review-text">{r.text}</p>
         </div>
-      
-        
-        <div className="rating">
-          {"⭐".repeat(prReviews.rating)}
-        </div>
-        
-        <p className="review-text">{prReviews.text}</p>
+      ))}
 
-      
+      <div className="navigation-buttons">
+        <button className="buttons" onClick={anterior}>
+          Anterior
+        </button>
+        <button className="buttons" onClick={proximo}>
+          Próximo
+        </button>
       </div>
-
-        <div className="navigation-buttons">
-        <button className="buttons" onClick={anterior}>Anterior</button>
-        <button className="buttons" onClick={proximo}>Próximo</button>
-      </div>
-      
-      
     </div>
   );
 };
