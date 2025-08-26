@@ -40,7 +40,7 @@ function Header() {
           <li>
             <a
               href="https://api.whatsapp.com/message/46HCAK57GAZAC1?autoload=1&app_absent=0"
-              className="nav-link px-3 text-decoration-none hover-link"
+              className="nav-link px- text-decoration-none hover-link"
               target="_blank"
               rel="noopener noreferrer"
             >
