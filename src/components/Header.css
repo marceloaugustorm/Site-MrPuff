@@ -1,45 +1,110 @@
-.hover-link:hover {
-  color: #ff4da6 !important; /* Rosa, com !important para sobrepor Bootstrap */
+
+.hover-link:hover,
+.hover-link:focus {
+  color: #ff4da6 !important; 
   transition: color 0.3s ease;
 }
 
-.nav-link{
+.nav-link {
   color: #65BAE1 !important;
 }
 
-.nav{
+.text-decoration-none{
+  color: #65BAE1;
+}
+
+.nav {
   font-size: 19px;
 }
 
-.line{
+.line {
   border-bottom: solid 2px #65BAE1;
   display: flex;
 }
 
-.containerh{
-  border-top:none;
+.containerh {
+  border-top: none;
   border-radius: 10px;
 }
 
+/* Logo sizing */
+.logo-desktop {
+  object-fit: cover;
+  border-radius: 50%; 
+}
 
-@media (max-width: 768px) {
-  .img-fluid.w-50.rounded-circle {
-    display: block;         
-    margin-left: auto;      
-    margin-right: auto;   
+.logo-mobile {
+  object-fit: cover;
+  border-radius: 50%; 
+}
+
+.mobile-nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-nav-open {
+  max-height: 300px; 
+}
+
+
+@media (max-width: 991.98px) {
+  .mobile-nav .nav-link {
+    padding: 10px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(101, 186, 225, 0.2);
   }
+  
+  .mobile-nav .nav-link:last-child {
+    border-bottom: none;
+  }
+  
+ 
+  .logo-mobile {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
 
+@media (max-width: 576px) {
+  .containerh {
+    padding: 0 15px;
+  }
   
+  .mobile-nav .nav-link {
+    font-size: 16px;
+  }
   
+
+  .logo-mobile {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
+
+
+.btn-link:focus {
+  box-shadow: none;
+}
+
+
+* {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+.hover-link svg {
+  transition: color 0.3s ease;
 }
 
 
 @media (max-width: 768px) {
-  .nav.col-12.col-md-auto {
-    flex-direction: column;
-    align-items: center;
-      
-    padding-left: 0 !important;
+  .nav {
+    font-size: 17px;
   }
 }
-
