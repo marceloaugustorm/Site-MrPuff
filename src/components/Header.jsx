@@ -109,7 +109,6 @@ function Header() {
                 src={Logo}
                 alt="Logotipo Mr-Puff"
                 className="img-fluid logo-mobile"
-                style={{ width: "110px", height: "110px", objectFit: "cover" }}
               />
             </Link>
           </div>

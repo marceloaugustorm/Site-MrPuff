@@ -53,6 +53,7 @@
 }
 
 
+
 @media (max-width: 991.98px) {
   .mobile-nav .nav-link {
     padding: 10px 0;
@@ -64,11 +65,7 @@
     border-bottom: none;
   }
   
- 
-  .logo-mobile {
-    width: 80px !important;
-    height: 80px !important;
-  }
+
 }
 
 @media (max-width: 576px) {
@@ -82,8 +79,8 @@
   
 
   .logo-mobile {
-    width: 70px !important;
-    height: 70px !important;
+    width: 120px !important;
+    height: 120px !important;
   }
 }
 
