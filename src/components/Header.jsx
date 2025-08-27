@@ -21,7 +21,7 @@ function Header() {
   return (
     <div className="containerh">
       {/* Desktop Header */}
-      <header className="d-none d-lg-flex flex-wrap align-items-center justify-content-between py-2 mb-2">
+      <header className="d-none d-lg-flex flex-wrap align-items-center justify-content-evenly py-3 mb-2 px-0">
         {/* Logo */}
         <div className="col-auto">
           <Link to="/">
@@ -40,7 +40,7 @@ function Header() {
             <li className="nav-item">
               <a
                 href="https://mrpuff-drinks-o-hookah-o-culture.goomer.app/menu"
-                className="nav-link px-3 text-decoration-none hover-link"
+                className="nav-link px-5 text-decoration-none hover-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -50,7 +50,7 @@ function Header() {
             <li className="nav-item">
               <a
                 href="https://api.whatsapp.com/message/46HCAK57GAZAC1?autoload=1&app_absent=0"
-                className="nav-link px-3 text-decoration-none hover-link"
+                className="nav-link px-4 text-decoration-none hover-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -60,7 +60,7 @@ function Header() {
             <li className="nav-item">
               <Link
                 to="/conheca"
-                className="nav-link px-3 text-decoration-none hover-link"
+                className="nav-link px-4 text-decoration-none hover-link"
               >
                 Nos Conheça
               </Link>
@@ -83,7 +83,7 @@ function Header() {
               href="https://www.instagram.com/mrpuffabc/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-decoration-none hover-link me-3"
+              className="text-decoration-none hover-link me-3 px-2"
             >
               <FaInstagram size={28} />
             </a>
@@ -101,7 +101,7 @@ function Header() {
 
       {/* Mobile Header */}
       <header className="d-block d-lg-none">
-        <div className="d-flex align-items-center justify-content-between py-2 mb-2">
+        <div className="d-flex align-items-center justify-content-between  py-2 mb-2">
           {/* Logo Mobile */}
           <div>
             <Link to="/">
@@ -109,6 +109,7 @@ function Header() {
                 src={Logo}
                 alt="Logotipo Mr-Puff"
                 className="img-fluid logo-mobile"
+                style={{ width: "130px", height: "130px", objectFit: "cover" }}
               />
             </Link>
           </div>
