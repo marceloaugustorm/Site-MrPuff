@@ -29,7 +29,7 @@ function Inform() {
           </h1>
 
           <h1 className="Horarios">
-            <i className="bi bi-calendar" style={{ color: "#E33D53" }}></i> Av Dom Pedro I, 1004 - Vila América - Santo André
+            <i className="bi bi-geo" style={{ color: "#E33D53" }}></i> Av Dom Pedro I, 1004 - Vila América - Santo André
           </h1>
 
           <div className="navigation-buttons">

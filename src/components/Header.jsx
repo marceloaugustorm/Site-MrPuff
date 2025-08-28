@@ -8,15 +8,6 @@ import { FaInstagram, FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 import "./Header.css";
 
 function Header() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
-
-  const closeMobileMenu = () => {
-    setIsMobileMenuOpen(false);
-  };
 
   return (
     <div className="containerh">
@@ -133,20 +124,11 @@ function Header() {
               <FaWhatsapp size={24} />
             </a>
             
-            {/* Hamburger Menu Button */}
-            <button
-              className="btn btn-link p-0 text-decoration-none hover-link"
-              onClick={toggleMobileMenu}
-              aria-label="Toggle navigation"
-              style={{color: "#65BAE1"}}
-            >
-              {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
-            </button>
+        
           </div>
         </div>
 
-        {/* Mobile Navigation Menu */}
-        <div className={`mobile-nav ${isMobileMenuOpen ? 'mobile-nav-open' : ''}`}>
+        <div>
           <nav>
             <ul className="nav flex-column text-center py-3">
               <li className="nav-item mb-2">
@@ -155,7 +137,6 @@ function Header() {
                   className="nav-link hover-link"
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={closeMobileMenu}
                 >
                   Cardápio
                 </a>
@@ -166,7 +147,6 @@ function Header() {
                   className="nav-link hover-link"
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={closeMobileMenu}
                 >
                   Pedidos
                 </a>
@@ -175,7 +155,6 @@ function Header() {
                 <Link 
                   to="/conheca" 
                   className="nav-link hover-link"
-                  onClick={closeMobileMenu}
                 >
                   Nos Conheça
                 </Link>
@@ -184,7 +163,6 @@ function Header() {
                 <Link 
                   to="/informacoes" 
                   className="nav-link hover-link"
-                  onClick={closeMobileMenu}
                 >
                   Horários e Localização
                 </Link>
